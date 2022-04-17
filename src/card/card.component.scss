@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+}
+.articul{
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.CardPay{
+  position: relative;
+  width: 237px;
+  height: 130px;
+
+  background: #0094FF;
+  border-radius: 7px;
+}
+.CardName{
+  font-family: 'Roboto', monospace;
+  position: absolute;
+  width: 59px;
+  height: 14px;
+  left: 11px;
+  top: 12px;
+  line-height: 14px;
+}
+
+.CardBalance{
+  font-family: 'Roboto', monospace;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  position: absolute;
+  width: 80px;
+  height: 21px;
+  left: 11px;
+  top: 100px;
+
+}
+.CardNumber{
+  position: absolute;
+  width: 137px;
+  height: 16px;
+  left: 11px;
+  top: 38px;
+
+}
+.PaySystem img{
+  width: 27px;
+  height: 9px;
+}
+.PaySystem{
+  position: absolute;
+  left: 83.97%;
+  right: 4.64%;
+  top: 9.23%;
+  bottom: 83.85%;
+}
+.CardData{
+  font-family: 'Roboto', monospace;
+  position: absolute;
+  width: 27px;
+  height: 12px;
+  left: 199px;
+  top: 112px;
+  font-size: 10px;
+  line-height: 12px;
+}

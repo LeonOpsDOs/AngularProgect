@@ -1,0 +1,10 @@
+
+<div class="CardPay">
+  <div class="CardName articul">{{name}}</div>
+  <div class="CardNumber articul">{{number}}</div>
+  <div class="CardBalance articul">{{amount}}</div>
+  <div class="CardData articul">{{expirationDate}}</div>
+  <div class="PaySystem"><img *ngIf="paymentSystem === 'visa'" src="./assets/CardPay/VISA.png"><img *ngIf="paymentSystem ==='mastercard'" src="./assets/CardPay/mastercard.png">
+  </div>
+</div>
+
