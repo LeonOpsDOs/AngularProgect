@@ -7,6 +7,7 @@ import {FormsModule} from "@angular/forms";
 import {UserComponent} from "../user/user.component";
 import {DerctDirective} from "./derct.directive";
 import {AttributeDirective} from "./attribute.directive";
+import { PipePipe } from './pipe.pipe';
 
 @NgModule({
     declarations: [
@@ -14,7 +15,8 @@ import {AttributeDirective} from "./attribute.directive";
         CardComponent,
         UserComponent,
         DerctDirective,
-        AttributeDirective
+        AttributeDirective,
+        PipePipe
     ],
     imports: [
         BrowserModule,
